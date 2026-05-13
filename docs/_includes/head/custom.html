@@ -1,0 +1,11 @@
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll(".masthead__menu-item a");
+    links.forEach(link => {
+      if (link.href === window.location.href) {
+        link.style.color = "#999";
+        link.style.pointerEvents = "none";
+      }
+    });
+  });
+</script>

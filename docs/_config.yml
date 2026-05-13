@@ -1,5 +1,9 @@
-title: TFG - Adrià Salarich
+title: 
 description: Your project description
-theme: minima
+remote_theme: mmistakes/minimal-mistakes
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+minimal_mistakes_skin: "dark"
 baseurl: "/TFG-a_salarich"
 url: "https://adrichs.github.io"
