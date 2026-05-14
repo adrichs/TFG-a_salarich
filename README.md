@@ -1,6 +1,8 @@
 # TFG_a_salarich
-> This is the repository for Adrià Salarich's bachelor's thesis, ***An in silico analysis of laccase thermostability determinants for the improvement of rational enzyme engineering***.
-Project development began on December 2025 and ended on March 2026. All the scripts and data used throughout the project can be found in this repository, divided into 7 methodological steps.
+This is the repository for Adrià Salarich's bachelor's thesis, ***An in silico analysis of laccase thermostability determinants for the improvement of rational enzyme engineering***.
+Project development began on December 2025 and ended on March 2026. All the data used throughout the project can be found in this repository, divided into 7 methodological steps, along with the scripts. 
+
+[Visit the project's page](https://adrichs.github.io/TFG-a_salarich/)
 
 ---
 
