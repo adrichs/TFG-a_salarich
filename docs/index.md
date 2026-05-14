@@ -10,7 +10,7 @@ header:
       url: /abstract/
     - label: "GitHub Repository"
       url: https://github.com/adrichs/TFG-a_salarich
-excerpt: "Improving laccase rational design"
+excerpt: "Improving laccase rational engineering"
 ---
 
 # **An *in silico* analysis of laccase thermostability determinants for the improvement of rational enzyme engineering**

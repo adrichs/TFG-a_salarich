@@ -3,6 +3,10 @@
 @import "minimal-mistakes/skins/dark";
 @import "minimal-mistakes";
 
+body {
+  font-size: 15px;
+}
+
 .page__hero--overlay {
   background-position: right center;
 }
