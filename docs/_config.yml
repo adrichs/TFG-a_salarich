@@ -1,5 +1,5 @@
 title: TFG - A. Salarich 
-description: Your project description
+description: Finding the properties that differentiate thermostable laccases for their modification and application in bioremediation. 
 remote_theme: mmistakes/minimal-mistakes
 plugins:
   - jekyll-remote-theme

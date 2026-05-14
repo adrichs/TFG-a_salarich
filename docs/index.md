@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Bachelor's thesis Adrià Salarich"
+title: "Bachelor's thesis - Adrià Salarich"
 header: 
   overlay_image: /assets/images/splash.jpg
   overlay_filter: 0
@@ -8,6 +8,8 @@ header:
   actions:
     - label: "Read the Abstract"
       url: /abstract/
+    - label: "GitHub Repository"
+      url: https://github.com/adrichs/TFG-a_salarich
 excerpt: "Improving laccase rational design"
 ---
 

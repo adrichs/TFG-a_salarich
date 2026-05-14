@@ -4,24 +4,32 @@ title: "Software, Databases and other Tools"
 permalink: /software/
 ---
 
-## Sequence Retrieval
+---
+
+## Software and databases
+###### Sequence Retrieval
 - **NCBI & UniProt** — protein sequence databases used to retrieve genomic and thermophilic sequences
 
-## Clustering
+###### Clustering
 - **CD-HIT** — clusters sequences by similarity to reduce redundancy
 
-## Alignment
+###### Alignment
 - **MAFFT** — multiple sequence alignment tool
 
-## Trimming
+###### Trimming
 - **trimAl** — removes poorly aligned regions from the MSA
 
-## Structure & Solvent Accessibility
+###### Structure & Solvent Accessibility
 - **FreeSASA** — calculates solvent accessible surface area
 - **ChimeraX** — molecular visualization and structure analysis
 
-## Conservation Analysis
+###### Conservation Analysis
 - **goalign** — MSA manipulation and PSSM extraction
 
-## Statistical Analysis
+###### Statistical Analysis
 - **Python scripts** — custom scripts for KL divergence, amino acid enrichment, and physicochemical analysis
+
+## Python Packages
+- **NumPy** — numerical array operations and matrix handling
+- **pandas** — tabular data loading and manipulation
+- **SciPy** — statistical tests (Chi-square, Fisher's exact, Mann-Whitney U, T-test, KL divergence)
