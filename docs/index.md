@@ -3,7 +3,7 @@ layout: splash
 title: "Bachelor's thesis - Adrià Salarich"
 header: 
   overlay_image: /assets/images/splash.jpg
-  overlay_filter: 0
+  overlay_filter: 0,15
   caption: "<i>Bacillus subtilis</i> CotA"
   actions:
     - label: "Read the Abstract"
