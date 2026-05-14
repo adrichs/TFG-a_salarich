@@ -1,9 +1,9 @@
 ---
 layout: splash
-title: "Bachelor's thesis - Adrià Salarich"
+title: "Bachelor's thesis Adrià Salarich"
 header: 
   overlay_image: /assets/images/splash.jpg
-  overlay_filter: 0.5
+  overlay_filter: 0
   caption: "<i>Bacillus subtilis</i> CotA"
   actions:
     - label: "Read the Abstract"
@@ -56,4 +56,4 @@ temperatures.
 
 Identifying these positions is the first step toward engineering 
 laccases that are more thermostable and, therefore, more **useful** 
-in real-world bioremediation applications."
+in real-world bioremediation applications.
