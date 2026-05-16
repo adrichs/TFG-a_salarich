@@ -1,0 +1,288 @@
+
+
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.28.0 by Michael Rose
+  Copyright 2013-2026 Michael Rose - mademistakes.com | @mmistakes
+  Copyright 2024-2026 iBug - ibugone.com | @iBug
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<html lang="en" class="no-js" dir="ltr">
+  <head>
+    
+<meta charset="utf-8">
+
+
+<!-- begin _includes/seo.html --><title>Methods - TFG - A. Salarich</title>
+<meta name="description" content="Finding the properties that differentiate thermostable laccases for their modification and application in bioremediation.">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="TFG - A. Salarich">
+<meta property="og:title" content="Methods">
+<meta property="og:url" content="https://adrichs.github.io/TFG-a_salarich/methods/">
+
+
+  <meta property="og:description" content="Finding the properties that differentiate thermostable laccases for their modification and application in bioremediation.">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://adrichs.github.io/TFG-a_salarich/methods/">
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/TFG-a_salarich/feed.xml" type="application/atom+xml" rel="alternate" title="TFG - A. Salarich Feed">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/TFG-a_salarich/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css"></noscript>
+
+
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const links = document.querySelectorAll(".masthead__menu-item a");
+    links.forEach(link => {
+      if (link.href === window.location.href) {
+        link.style.color = "#999";
+        link.style.pointerEvents = "none";
+      }
+    });
+  });
+</script>
+
+  </head>
+
+  <body class="layout--single">
+    
+<nav class="skip-links" aria-label="Skip links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav" aria-label="Primary navigation">
+        
+        <a class="site-title" href="/TFG-a_salarich/">
+          TFG - A. Salarich
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a
+                href="/TFG-a_salarich/abstract/"
+                
+                
+              >Abstract</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/TFG-a_salarich/software/"
+                
+                
+              >Software</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/TFG-a_salarich/methods/"
+                
+                
+              >Methods</a>
+            </li><li class="masthead__menu-item">
+              <a
+                href="/TFG-a_salarich/results/"
+                
+                
+              >Results</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+
+
+<div id="main" role="main">
+  
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Methods">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title p-name" itemprop="headline">
+            <a href="https://adrichs.github.io/TFG-a_salarich/methods/" itemprop="url">Methods
+</a>
+          </h1>
+          
+
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Thermostable and non-thermostable laccases were collected from UniProt, 
+NCBI and BRENDA using the filters these databases provide. 
+The protein sequences were downloaded in FASTA format using a bash 
+script.</p>
+
+<p>To reduce sequence redundancy within the groups, the sequences were 
+clustered using CD-HIT into smaller representative groups.</p>
+
+<p>Multiple sequence alignments of thermostable and non-thermostable 
+laccases were then constructed using MAFFT. To improve their 
+quality and downstream usability, the alignments were trimmed with trimAl.</p>
+
+<p>The solvent accessibility of each residue in the B. subtilis CotA structure (PDB: 1GSK) was calculated using FreeSASA. Residues were classified as buried or solvent-accessible based on a 20% relative solvent accessibility threshold and exported from ChimeraX.</p>
+
+<blockquote>
+  <h5 id="what-is-solvent-accessibility"><strong><em>What is solvent accessibility?</em></strong></h5>
+  <p>Solvent accessibility measures how exposed a given amino acid is to the surrounding water molecules. It is expressed as a percentage of the maximum possible exposure for that amino acid — a value close to 0% means the residue is deeply buried inside the protein, while a value close to 100% means it is fully exposed on the surface. This distinction is important because buried and surface residues play very different roles in protein structure and stability.</p>
+</blockquote>
+
+<p>Position Specific Scoring Matrices (PSSMs) were generated from the trimmed alignments using goalign. Using CotA as a reference, the PSSM rows corresponding to buried and solvent-accessible residues were extracted separately for both datasets using a custom Python script.</p>
+
+<p>Three complementary analyses were then applied to compare the two groups. Amino acid group enrichment was assessed using Chi-squared tests, physicochemical properties were compared using Student’s t-test and Mann-Whitney U tests, and the Kullback-Leibler divergence was used to identify the positions that differ most between thermostable and non-thermostable laccases.</p>
+
+<p>The most discriminating positions were mapped onto the 1GSK structure using ChimeraX and their structural context was examined to interpret their potential role in thermostability.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+  
+
+  
+
+
+        
+
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+      
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/TFG-a_salarich/feed.xml"><i class="fas fa-fw fa-square-rss" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+
+<div class="page__footer-copyright">&copy; 2026 <a href="https://adrichs.github.io">TFG - A. Salarich</a>. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/jekyll-themes/minimal-mistakes/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+
+  <script src="/TFG-a_salarich/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
