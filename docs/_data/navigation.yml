@@ -1,5 +1,9 @@
 main:
   - title: "Abstract"
     url: /abstract/
-  - title: "Software, Databases and other Tools"
+  - title: "Software"
     url: /software/
+  - title: "Methods"
+    url: /methods/
+  - title: "Results"
+    url: /results/

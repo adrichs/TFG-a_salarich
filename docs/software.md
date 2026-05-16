@@ -26,10 +26,10 @@ permalink: /software/
 ###### Conservation Analysis
 - **goalign** — MSA manipulation and PSSM extraction
 
-###### Statistical Analysis
-- **Python scripts** — custom scripts for KL divergence, amino acid enrichment, and physicochemical analysis
+## Statistical analysis - Python
+Custom Python scripts were used for the statistical analyses and the KL divergence.
 
-## Python Packages
+The packages used were:
 - **NumPy** — numerical array operations and matrix handling
 - **pandas** — tabular data loading and manipulation
 - **SciPy** — statistical tests (Chi-square, Fisher's exact, Mann-Whitney U, T-test, KL divergence)
