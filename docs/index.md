@@ -8,8 +8,11 @@ header:
   actions:
     - label: "Read the Abstract"
       url: /abstract/
+    - label: "Read the manuscript"
+      url: assets/TFG_Salarich_Soldevila_Adria.pdf
     - label: "GitHub Repository"
       url: https://github.com/adrichs/TFG-a_salarich
+    
 excerpt: "Improving laccase rational engineering"
 ---
 
