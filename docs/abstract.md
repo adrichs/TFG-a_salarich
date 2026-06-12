@@ -9,4 +9,4 @@ Laccases (EC:1.10.3.2) are enzymes of the multi-copper oxidase family capable of
 **Keywords:** bacterial laccase, thermostability, bioremediation, rational engineering, multiple-sequence alignment (MSA)
 {: .notice}
 
-[Read the full manuscript](https://raw.githubusercontent.com/adrichs/TFG-a_salarich/main/docs/assets/TFG_Salarich_Soldevila_Adria.pdf){: .btn .btn--info .btn--large}
+[Read the full manuscript](https://uab-my.sharepoint.com/:b:/r/personal/1665197_uab_cat/Documents/TFG/Manuscript/TFG_Salarich_Soldevila_Adria.pdf?csf=1&web=1&e=XhXIJf){: .btn .btn--info .btn--large}
