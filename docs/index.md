@@ -9,7 +9,7 @@ header:
     - label: "Read the Abstract"
       url: /abstract/
     - label: "Read the manuscript"
-      url: https://uab-my.sharepoint.com/:b:/g/personal/1665197_uab_cat/IQA3Q_uQgJb_SoF31QkDd5y8AelyhC_ABf1BCvdYuD8RymI?e=CcAq5F
+      url: https://uab-my.sharepoint.com/:b:/g/personal/1665197_uab_cat/IQA3Q_uQgJb_SoF31QkDd5y8AXdQiLrdMdRt_EkfSGQ_z1s?e=0DN9iq
     - label: "GitHub Repository"
       url: https://github.com/adrichs/TFG-a_salarich
     
