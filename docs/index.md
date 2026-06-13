@@ -9,7 +9,7 @@ header:
     - label: "Read the Abstract"
       url: /abstract/
     - label: "Read the manuscript"
-      url: https://uab-my.sharepoint.com/:b:/r/personal/1665197_uab_cat/Documents/TFG/Manuscript/TFG_Salarich_Soldevila_Adria.pdf?csf=1&web=1&e=XhXIJf
+      url: https://uab-my.sharepoint.com/:b:/g/personal/1665197_uab_cat/IQA3Q_uQgJb_SoF31QkDd5y8AelyhC_ABf1BCvdYuD8RymI?e=CcAq5F
     - label: "GitHub Repository"
       url: https://github.com/adrichs/TFG-a_salarich
     
